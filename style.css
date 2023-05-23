@@ -1,0 +1,105 @@
+*{
+  font-family: 'Proza Libre', sans-serif;
+}
+
+html{
+  width: 90%;
+  margin: auto;
+  background-color: white;
+}
+
+
+.Nav a {
+  padding: 1.95vw;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+.Nav a:hover{
+  background-color: #00cfc8;
+ color: rgb(0, 0, 0);
+ transition: all 1s ease;
+}
+
+/*.Top {
+  padding:1.95vw;
+ 
+}*/
+
+.Top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; 
+  color: #fff; 
+  padding: 1.95vw;
+  text-align: center;
+  transition: top 0.3s ease-in-out;
+  display: flex;
+  flex-direction: row; 
+  z-index: 999;
+}
+
+.output{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;  
+  column-count: 3;
+}
+
+.box{
+  border: solid 1px #f0f0f0;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px; 
+}
+
+.grid-item {
+  position: relative;
+}
+
+.grid-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.grid-item .header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  text-align: center;
+}
+
+.Contact {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  list-style-type: none;
+}
+
+.image{
+  padding: 10px;
+}
+
+.info{
+text-decoration: none;
+}
+
+.info h3{
+  text-align: center;
+}
